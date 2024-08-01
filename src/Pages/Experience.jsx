@@ -2,10 +2,10 @@ import { Link } from 'react-router-dom';
 
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+// import logo from './logo192.png'
 
 
-
-const WorkIcon = () => <><img src="../../logo192.png" /></>;
+const WorkIcon = () => <><img src={process.env.PUBLIC_URL +"/logo192.png"} alt="logo" /></>;
 
 const SchoolIcon = () => <></>;
 
@@ -13,7 +13,7 @@ const StarIcon = () => <></>;
 
 
 const Experience = () => {
-	return (
+	return (  
 		<div className="container">
 			
 <VerticalTimeline>
