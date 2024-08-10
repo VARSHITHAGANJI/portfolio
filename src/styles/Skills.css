@@ -1,0 +1,47 @@
+/* src/components/Skills.css */
+.skills-container {
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+.skills-title {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  color: rosybrown;
+}
+
+.skills-row {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.skills-card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: #fff;
+  transition: transform 0.2s;
+}
+
+.skills-card:hover {
+  transform: scale(1.05);
+}
+
+.skills-card .card-title {
+  font-size: 1.5rem;
+  color: rosybrown;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.skills-card .card-text {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.skills-card .fa-icon {
+  margin-right: 0.5rem;
+}

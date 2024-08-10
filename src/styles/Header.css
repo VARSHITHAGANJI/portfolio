@@ -1,0 +1,67 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background-color: purple;
+  color: white;
+}
+
+
+
+/* src/components/Navbar.css */
+.navbar-brand {
+  font-size: 2.75rem; /* Adjust size as needed */
+  font-family: 'Roboto', sans-serif;
+   color:rosybrown !important;
+}
+
+.nav-link {
+  font-size: 2.25rem; /* Adjust size as needed */
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-family: 'Roboto', sans-serif;
+  color: rosybrown !important;
+}
+
+.nav-text{
+    font-size:large;
+      color: rosybrown !important;
+}
+
+/* src/components/Navbar.css */
+.navbar-light {
+  background-color: #f8f9fa !important;
+}
+
+.navbar-dark {
+  background-color: #343a40 !important;
+}
+
+.nav-link {
+  color: rosybrown !important;
+}
+
+.theme-toggle-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.theme-icon {
+  width: 24px;
+  height: 24px;
+}
+
+/* src/App.css */
+body.light-theme {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+body.dark-theme {
+  background-color: #121212;
+  color: #ffffff;
+}
+

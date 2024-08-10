@@ -1,0 +1,60 @@
+/* src/components/About.css */
+.about-container {
+  padding: 2rem;
+  background: linear-gradient(45deg, #ffafbd, #ffc3a0);
+  border-radius: 20px;
+  margin-top: 2rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.about-content {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.about-photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.about-photo img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+  border: 5px solid rosybrown;
+  transform: rotate(-5deg);
+}
+
+.about-bio {
+  text-align: center;
+}
+
+.about-bio h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: rosybrown;
+}
+
+.about-bio p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #666;
+}
+
+.resume-button {
+  margin-top: 2rem;
+}
+
+.resume-button .btn-primary {
+  background-color: rosybrown;
+  border-color: rosybrown;
+}
+
+.resume-button .btn-primary:hover {
+  background-color: #d18b7b;
+  border-color: #d18b7b;
+}
