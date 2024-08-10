@@ -1,4 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
+
+import { Navbar, Nav, Container } from 'react-bootstrap';
+
 import Home from './Pages/Home';
 import Experience from './Pages/Experience';
 import Education from './Pages/Education';
@@ -34,21 +37,21 @@ const App = () => {
    return (
       <div>
          <div className={`app-container ${theme}-theme`}>
-         <header className='navbar-fixed'>
-        <Header theme={theme} toggleTheme={toggleTheme} />
-        </header>
-        <main className="content-container">
+         
+         <Header theme={theme} toggleTheme={toggleTheme} />
+       
+        <Container className="content-container">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
 
             <Route path="/skills" element={<Skills />} />
-            <Route path="/education" element={<Education />} />
+            <Route path="/experience" element={<Education />} />
             {/* <Route path="/projects" element={<Projects />} />
             <Route path="/blog" element={<Blog />} /> */}
           </Routes>
         
-        </main>
+        </Container>
         <div className="flex-grow-1">
          <footer className="footer-fixed">
           <Footer />

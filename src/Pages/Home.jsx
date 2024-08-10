@@ -1,15 +1,14 @@
 import { Link } from 'react-router-dom';
+import React from 'react';
 
 
 
 const Home = () => {
 	return (
-		<div className='homepage'>
-		<div className='homepage-header'>
-		
+		<div>
+		My home
 		</div>
 
-		</div>
 	);
 };
 
