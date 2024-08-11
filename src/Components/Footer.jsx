@@ -5,9 +5,9 @@ import { faGithub, faLinkedin, faInstagram, faDiscord } from '@fortawesome/free-
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import '../styles/Footer.css';
 
-const Footer = () => {
+const Footer = ({theme}) => {
   return (
-    <footer className="footer">
+    <footer className={"footer "+theme}>
       <div className="social-icons">
         <a href="https://github.com/VARSHITHAGANJI" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faGithub} />

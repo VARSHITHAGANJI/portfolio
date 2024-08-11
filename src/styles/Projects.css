@@ -1,0 +1,111 @@
+/* src/pages/Projects.css */
+.projects-container {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  min-height: calc(100vh - 150px); /* Adjust height based on header and footer */
+}
+
+
+.filter-sort-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.tag-select {
+  width: 200px;
+  margin-right: 10px;
+}
+
+.sort-dropdown {
+  width: 150px;
+}
+
+.selected-tags {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.selected-tag {
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.selected-tag span {
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.tags{
+    
+  
+    border-color: black;
+    border-width: 1px;
+    border-radius: 2px;
+
+    margin: bottom 3px;
+    display:flex;
+    flex-direction:row;
+ /* display:inline-block; */
+
+
+}
+
+.tag{
+    background-color: rgb(240, 240, 240);
+    border-width: 1px;
+    border-radius: 7px;
+    margin: 5px;
+    padding: 5px
+}
+
+
+.project-links{
+    border-color: black;
+}
+
+.link-button{
+    color:black;
+    background-color: white;
+}
+
+/* .project-controls{
+    align-items: right;
+}
+
+.project-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-meta {
+  margin-top: 10px;
+}
+
+.tags .tag {
+  display: inline-block;
+  margin-right: 500px;
+  padding: 5px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+}
+
+.project-links {
+  margin-top: 10px;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+} */
+
+/* Additional styles as needed */

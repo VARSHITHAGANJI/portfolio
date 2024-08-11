@@ -8,6 +8,8 @@ import Education from './Pages/Education';
 
 import Skills from './Pages/Skills';
 import About from './Pages/About';
+import Projects from './Pages/Projects';
+import ProjectDetail from './Pages/ProjectDetail';
 
 import Header from "./Components/Header"
 import Footer from "./Components/Footer"
@@ -47,14 +49,16 @@ const App = () => {
 
             <Route path="/skills" element={<Skills />} />
             <Route path="/experience" element={<Education />} />
+            <Route path="/projects" element={<Projects />} />
+        <Route path="/project/:id" element={<ProjectDetail/>} />
             {/* <Route path="/projects" element={<Projects />} />
             <Route path="/blog" element={<Blog />} /> */}
           </Routes>
         
         </Container>
-        <div className="flex-grow-1">
-         <footer className="footer-fixed">
-          <Footer />
+        <div className="flex-grow-1 footer-fixed">
+         <footer>
+          <Footer theme={theme} />
         </footer>
       </div>
       </div>

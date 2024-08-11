@@ -8,7 +8,7 @@
 
 // src/components/Navbar.js
 import React, { useState } from 'react';
-import { Navbar, Nav, Container } from 'react-bootstrap';
+import { Navbar, Nav, Container, NavItem } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 
 import Switch from 'react-switch';
@@ -56,7 +56,8 @@ const MyNavbar = ({ theme, toggleTheme }) => {
           </Nav>
           
         </Navbar.Collapse>
-        <div className="theme-toggle">
+        <NavItem >
+        <div className="theme-toggle ms-auto">
             <Switch
               onChange={toggleTheme}
               checked={theme === 'dark'}
@@ -67,6 +68,7 @@ const MyNavbar = ({ theme, toggleTheme }) => {
               className="react-switch" height={25}   
             />
           </div>
+          </NavItem >
       </Container>
     </Navbar>
   );

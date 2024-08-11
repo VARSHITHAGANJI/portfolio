@@ -6,7 +6,7 @@
 .app-container{
   display: flex;
   flex-direction: column;
-  /* min-height: calc(100vh-130px); */
+  max-height: calc(100vh-130px);
 }
 
 /* toggle */
@@ -53,6 +53,8 @@
   z-index: 0;
 }
 
+
+
 /* src/App.css */
 .content-container::-webkit-scrollbar {
   width: 12px;
@@ -81,11 +83,11 @@ body.dark-theme {
 }
 
 .navbar-fixed .navbar-light {
-  background-color: #c9d2dc !important;
+  background-color: #f4f5f6 !important;
 }
 
 .navbar-fixed .navbar-dark {
-  background-color: #1c2037 !important;
+  background-color: #31304D !important;
 }
 
 .nav-link-light {

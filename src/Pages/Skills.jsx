@@ -1,56 +1,131 @@
-// src/components/Skills.js
+// src/pages/Skills.js
 import React from 'react';
-import '../styles/Skills.css';
-import { Card, Row, Col } from 'react-bootstrap';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCode, faLaptopCode, faTools } from '@fortawesome/free-solid-svg-icons';
+import { Container, Row, Col, Card } from 'react-bootstrap';
 import {
-  faPython, faJsSquare, faHtml5, faCss3Alt, faNodeJs, faReact, faBootstrap,
-  faLinux, faGitAlt, faGithub, faDocker
-} from '@fortawesome/free-brands-svg-icons';
+  SiPython, SiJavascript, SiCplusplus, SiMysql, SiMongodb, SiPostgresql, SiLatex, SiTensorflow, SiPytorch, SiReact
+} from 'react-icons/si';
+import { FaLinux, FaGitAlt, FaGithub, FaJava, FaMarkdown, FaDatabase } from 'react-icons/fa';
+import { IoLogoJavascript } from 'react-icons/io5';
+import '../styles/Skills.css';
+
+const skillsData = [
+  {
+    category: 'Languages',
+    skills: [
+      { name: 'C++', icon: <SiCplusplus /> },
+      { name: 'C', icon: <FaJava /> },
+      { name: 'Python', icon: <SiPython /> },
+      { name: 'Javascript', icon: <IoLogoJavascript /> },
+      { name: 'SQL', icon: <FaDatabase /> },
+      { name: 'Matlab', icon: <FaDatabase /> },
+      { name: 'Bash', icon: <FaLinux /> },
+    ],
+  },
+  {
+    category: 'Frameworks',
+    skills: [
+      { name: 'Tensorflow', icon: <SiTensorflow /> },
+      { name: 'Pytorch', icon: <SiPytorch /> },
+      { name: 'React.js', icon: <SiReact /> },
+      { name: 'Node.js', icon: <img width="48" height="48" src="https://img.icons8.com/color/48/nodejs.png" alt="nodejs"/> },
+    ],
+  },
+  {
+    category: 'Databases',
+    skills: [
+      { name: 'MySQL', icon: <SiMysql /> },
+      { name: 'MongoDB', icon: <SiMongodb /> },
+      { name: 'PostgresSQL', icon: <SiPostgresql /> },
+    ],
+  },
+  {
+    category: 'Developer Tools',
+    skills: [
+      { name: 'Linux', icon: <FaLinux /> },
+      { name: 'Git', icon: <FaGitAlt /> },
+      { name: 'GitHub', icon: <FaGithub /> },
+      { name: 'LateX', icon: <SiLatex /> },
+      { name: 'Markdown', icon: <FaMarkdown /> },
+      { name: 'Anaconda', icon: <img width="48" height="48" src="https://img.icons8.com/fluency/48/anaconda--v2.png" alt="anaconda--v2"/> },
+    ],
+  },
+];
+
+const mathCSAI = [
+  {
+    category: 'Math',
+    skills: [
+      'Probability and Statistics',
+      'Linear Algebra',
+      'Convex Optimisation',
+    ],
+  },
+  {
+    category: 'CS',
+    skills: [
+      'Algorithms',
+      'Computer Architecture',
+      'Operating Systems',
+      'Compiler Engineering',
+      'Cryptology',
+    ],
+  },
+  {
+    category: 'AI',
+    skills: [
+      'Deep Learning',
+      'Reinforcement Learning',
+      'Explainability in ML',
+    ],
+  },
+];
 
 const Skills = () => {
   return (
-    <div className="skills-container">
-      <h2 className="skills-title">My Skills</h2>
-      <Row className="skills-row">
-        <Col md={4}>
-          <Card className="skills-card">
-            <Card.Body>
-              <Card.Title><FontAwesomeIcon icon={faCode} /> Programming Languages</Card.Title>
-              <Card.Text>
-                <FontAwesomeIcon icon={faPython} /> Python<br />
-                <FontAwesomeIcon icon={faJsSquare} /> JavaScript<br />
-                <FontAwesomeIcon icon={faHtml5} /> HTML<br />
-                <FontAwesomeIcon icon={faCss3Alt} /> CSS<br />
-                C, C++, MySQL, Matlab
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col md={4}>
-          <Card className="skills-card">
-            <Card.Body>
-              <Card.Title><FontAwesomeIcon icon={faLaptopCode} /> Frameworks/Libraries</Card.Title>
-              <Card.Text>
-                <strong>ML:</strong> TensorFlow, PyTorch, Scikit Learn, ML Flow, Pandas, Numpy, Scipy, Seaborn, Matplotlib, OpenCV<br />
-                <strong>Web Dev:</strong> <FontAwesomeIcon icon={faReact} /> ReactJS, <FontAwesomeIcon icon={faNodeJs} /> NodeJS, Django, <FontAwesomeIcon icon={faBootstrap} /> Bootstrap
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col md={4}>
-          <Card className="skills-card">
-            <Card.Body>
-              <Card.Title><FontAwesomeIcon icon={faTools} /> Developer Tools</Card.Title>
-              <Card.Text>
-                <FontAwesomeIcon icon={faLinux} /> Linux, <FontAwesomeIcon icon={faGitAlt} /> Git, <FontAwesomeIcon icon={faGithub} /> GitHub, LaTex, Bash, Anaconda, Jupyter Notebooks, VS Code, Pycharm, <FontAwesomeIcon icon={faDocker} /> Docker
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
+    <Container className="skills-container">
+      <h2 className="skills-heading">My Skills</h2>
+      <p className="skills-intro">Here are some of the programming languages, frameworks, databases, and tools I have experience with:</p>
+      <Row>
+        {skillsData.map((category, index) => (
+          <Col key={index} md={3}>
+            <Card className="skill-card">
+              <Card.Body>
+                <Card.Title className="card-title">{category.category}</Card.Title>
+                <Card.Text>
+                  <ul className="skill-list">
+                    {category.skills.map((skill, idx) => (
+                      <li key={idx}>
+                        {skill.icon} <span className="skill-name">{skill.name}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+        ))}
       </Row>
-    </div>
+      <Row className="mt-4">
+        {mathCSAI.map((category, index) => (
+          <Col key={index} md={4}>
+            <Card className="skill-card">
+              <Card.Body>
+                <Card.Title className="card-title">{category.category}</Card.Title>
+                <Card.Text>
+                  <ul className="skill-list">
+                    {category.skills.map((skill, idx) => (
+                      <li key={idx}>
+                        <span className="skill-name">{skill}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+        ))}
+      </Row>
+    </Container>
   );
 };
 

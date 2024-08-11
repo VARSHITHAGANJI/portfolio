@@ -24,7 +24,7 @@
 .navbar-brand {
   font-size: 1.5rem; /* Adjust size as needed */
   font-family: 'Roboto', sans-serif;
-  width: 70%;
+  width: 50%;
    color:rosybrown !important;
 }
 
@@ -52,13 +52,7 @@
       padding-bottom: 5rem;
 }
 
-.header.light {
-  background-color: #f8f9fa;
-}
 
-.header.dark {
-  background-color: #343a40;
-}
 
 .navbar-light .navbar-nav .nav-link {
   color: rosybrown;
@@ -71,8 +65,8 @@
 .theme-toggle .react-switch {
   display: flex;
   align-items: center;
-  margin-left: 8px;
-  margin-right:4px;
+  margin-left: 1px;
+  margin-right:1px;
   border-color: black;
   
 }
