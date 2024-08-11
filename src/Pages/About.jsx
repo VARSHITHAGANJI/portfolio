@@ -21,10 +21,9 @@ const About = () => {
           <div className="content-wrapper">
             <h3 className="title">About Me</h3>
             <p className="description">
-              Sollicitudin ac orci phasellus egestas tellus rutrum. Venenatis cras sed felis eget.
-              Amet risus nullam eget felis eget nunc. Lacus vestibulum sed arcu non odio euismod.
-              Consectetur adipiscing elit duis tristique. Pharetra magna ac placerat vestibulum
-              lectus mauris ultrices.
+              As a software engineer with a degree in AI from IIT Hyderabad, I thrive at the intersection of technology and creativity.
+               My passion lies in exploring the realms of machine learning, deep learning, and distributed systems. 
+                When I’m not debugging code, you’ll likely find me singing or playing the piano, playing table tennis, or baking for my loved ones.
             </p>
           </div>
         </Col>

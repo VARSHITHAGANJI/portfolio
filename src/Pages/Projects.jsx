@@ -109,7 +109,7 @@ const Projects = () => {
           </Form.Group>
         </Col>
       </Row> */}
-      <VerticalTimeline>
+      <VerticalTimeline lineColor='black'>
         {filteredProjects.map((project, index) => (
           <VerticalTimelineElement key={index}  icon={project.icon} iconStyle={{ background: 'rosybrown', color: '#fff' }}>
             <Project {...project} />

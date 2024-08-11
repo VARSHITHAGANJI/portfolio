@@ -104,13 +104,18 @@
 } */
 
 /* src/pages/Skills.css */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
 .skills-container {
-  padding: 20px 0;
+
+  padding: 20px 0 20px;
   background-color: #f4ecec;
   color: #3e2723;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+.row>*{
+    margin-bottom: 20px;
 }
 
 .skills-heading {
@@ -133,22 +138,30 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   background-color: #fff;
   margin-bottom: 20px;
+  /* margin-top: 20px; */
 }
 
-.card-title {
+.skill-card-title {
+  display: flex;
+  align-items: center;
   color: #b5651d;
-  margin-left: 15px;
-  font-size: 1.5em;
+  margin-left: 40px;
+}
+
+.skill-category-name {
+  margin-left: 10px;
 }
 
 .skill-list {
   list-style-type: none;
   padding: 0;
+  text-align: center;
 }
 
 .skill-list li {
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-bottom: 10px;
   font-size: 1.2em;
   color: #3e2723;
@@ -167,10 +180,4 @@
 
 .card-title {
   color: #b5651d;
-}
-
-@media (min-width: 768px) {
-  .skill-card {
-    min-width: 250px;
-  }
 }
