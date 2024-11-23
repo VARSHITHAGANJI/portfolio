@@ -132,7 +132,7 @@ body.dark-theme {
     max-width: 100%;
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
         max-width: 100% !important;
         max-height: 100% !important;
