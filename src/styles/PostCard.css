@@ -1,0 +1,36 @@
+/* PostCard.css */
+
+.post-card {
+  background-color: #ffffff;
+  border: 1px solid #dcd0c0;
+  padding: 5px;
+  margin: 0px;
+  border-radius: 5px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.post-title {
+  font-size: 1.2rem;
+  color: #6b4a4a;
+  margin-bottom: 8px;
+}
+
+.post-meta {
+  font-size: 0.9rem;
+  color: #a68c8c;
+  margin-bottom: 10px;
+}
+
+.post-excerpt {
+  font-size: 1rem;
+  color: #4d4d4d;
+}
+
+.tags .tag {
+  background-color: #f5ebe0;
+  color: #6b4a4a;
+  padding: 5px 8px;
+  margin: 3px;
+  border-radius: 3px;
+}

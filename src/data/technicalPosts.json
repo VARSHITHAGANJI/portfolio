@@ -1,0 +1,44 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Understanding Distributed Systems",
+      "description": "A beginner-friendly guide to distributed systems and how they power modern applications.",
+      "date": "2024-11-01",
+      "tags": ["Distributed Systems", "Computer Science"],
+      "image": "distributed_systems.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Deep Dive into MLIR",
+      "description": "Exploring MLIR and its role in AI compilers for high-performance workloads.",
+      "date": "2024-10-15",
+      "tags": ["Compilers", "MLIR", "AI"],
+      "image": "mlir_deep_dive.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Optimization Techniques in Deep Learning",
+      "description": "Key techniques to optimize deep learning models for performance and efficiency.",
+      "date": "2024-09-20",
+      "tags": ["Deep Learning", "Optimization"],
+      "image": "optimization_dl.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Introduction to Reinforcement Learning",
+      "description": "Understand the basics of RL and how it's applied to solve complex tasks.",
+      "date": "2024-08-05",
+      "tags": ["Reinforcement Learning", "AI"],
+      "image": "reinforcement_learning.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Explainability in Machine Learning",
+      "description": "How to make ML models more interpretable and trustworthy.",
+      "date": "2024-07-30",
+      "tags": ["Explainability", "AI"],
+      "image": "explainability_ml.jpg"
+    }
+  ]
+}

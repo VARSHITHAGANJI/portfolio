@@ -1,0 +1,85 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Introduction to React",
+      "excerpt": "Learn the basics of React and how it can streamline your frontend development.",
+      "date": "2024-10-01",
+      "readTime": 5,
+      "tags": ["React", "JavaScript", "Frontend"]
+    },
+    {
+      "id": 2,
+      "title": "Deep Dive into Machine Learning",
+      "excerpt": "An in-depth look at machine learning concepts and how to apply them effectively.",
+      "date": "2024-09-15",
+      "readTime": 7,
+      "tags": ["Machine Learning", "Python", "AI"]
+    },
+    {
+      "id": 3,
+      "title": "CSS Tricks You Should Know",
+      "excerpt": "Explore some handy CSS tricks to enhance your web design.",
+      "date": "2024-08-20",
+      "readTime": 4,
+      "tags": ["CSS", "Web Design"]
+    },
+    {
+      "id": 4,
+      "title": "Getting Started with Node.js",
+      "excerpt": "A beginner's guide to setting up and running a Node.js server.",
+      "date": "2024-07-05",
+      "readTime": 6,
+      "tags": ["Node.js", "JavaScript", "Backend"]
+    },
+    {
+      "id": 5,
+      "title": "Exploring MongoDB for Beginners",
+      "excerpt": "Learn how to set up and use MongoDB for your next project.",
+      "date": "2024-06-12",
+      "readTime": 5,
+      "tags": ["MongoDB", "Databases"]
+    },
+    {
+      "id": 6,
+      "title": "How to Optimize React Performance",
+      "excerpt": "Tips and tricks to improve the performance of your React apps.",
+      "date": "2024-05-22",
+      "readTime": 8,
+      "tags": ["React", "JavaScript", "Optimization"]
+    },
+    {
+      "id": 7,
+      "title": "Building a REST API with Express.js",
+      "excerpt": "Step-by-step guide to building a REST API using Express.js.",
+      "date": "2024-04-10",
+      "readTime": 10,
+      "tags": ["Express.js", "Backend", "JavaScript"]
+    },
+    {
+      "id": 8,
+      "title": "Version Control with Git and GitHub",
+      "excerpt": "Master version control to manage your projects like a pro.",
+      "date": "2024-03-18",
+      "readTime": 6,
+      "tags": ["Git", "GitHub", "Tools"]
+    },
+    {
+      "id": 9,
+      "title": "AI in Healthcare",
+      "excerpt": "Explore the impact of AI in transforming healthcare.",
+      "date": "2024-02-14",
+      "readTime": 9,
+      "tags": ["AI", "Healthcare", "Machine Learning"]
+    },
+    {
+      "id": 10,
+      "title": "Responsive Web Design Basics",
+      "excerpt": "Learn the principles of creating responsive web pages.",
+      "date": "2024-01-10",
+      "readTime": 7,
+      "tags": ["CSS", "Web Design", "Frontend"]
+    }
+  ]
+}
+

@@ -7,7 +7,7 @@ import '../styles/Footer.css';
 
 const Footer = ({theme}) => {
   return (
-    <footer className={"footer "+theme}>
+    <footer className={"footer "+theme }>
       <div className="social-icons">
         <a href="https://github.com/VARSHITHAGANJI" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faGithub} />

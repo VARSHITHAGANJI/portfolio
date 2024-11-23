@@ -1,0 +1,45 @@
+/* TagsSidebar.css */
+
+.tags-sidebar {
+  width: 20%;
+
+  background-color: #DDBEBE; /* Subtle rosy brown */
+  color: #6b4a4a;
+  padding: 20px;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .tags-sidebar {
+    display: none;
+  }
+}
+
+
+.sidebar-title {
+  font-size: 1.2rem;
+  color: #6b4a4a;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.tags-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tag {
+  background-color: #f5ebe0; /* Subtle rosy brown */
+  color: #6b4a4a;
+  padding: 5px 10px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 15px;
+  font-size: 0.9rem;
+}
+
+.tag.selected {
+  background-color: #6b4a4a; /* Highlight selected tag */
+  color: #ffffff;
+}

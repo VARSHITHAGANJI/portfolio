@@ -9,7 +9,11 @@ import Education from './Pages/Education';
 import Skills from './Pages/Skills';
 import About from './Pages/About';
 import Projects from './Pages/Projects';
-import ProjectDetail from './Pages/ProjectDetail';
+// import ProjectDetail from './Pages/ProjectDetail';
+import AllBlogs from './Pages/AllBlogs';
+import PersonalBlogs from './Pages/PersonalBlogPage';
+import TechnicalBlogs from './Pages/TechnicalBlogPage';
+// import BlogDetail from './Pages/BlogDetail';
 
 import Header from "./Components/Header"
 import Footer from "./Components/Footer"
@@ -17,6 +21,8 @@ import React, { useState, useEffect } from 'react';
 
 
 import './App.css';
+
+
 
  
 const App = () => {
@@ -44,13 +50,16 @@ const App = () => {
        
         <Container className="content-container">
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<About />} />
             <Route path="/about" element={<About />} />
 
             <Route path="/skills" element={<Skills />} />
             <Route path="/experience" element={<Education />} />
             <Route path="/projects" element={<Projects />} />
-        <Route path="/project/:id" element={<ProjectDetail/>} />
+            <Route path="/blog/allposts" element={<AllBlogs />} />
+<Route path="/blog/technical" element={<TechnicalBlogs />} />
+<Route path="/blog/personal" element={<PersonalBlogs />} />
+        {/* <Route path="/project/:id" element={<ProjectDetail/>} /> */}
             {/* <Route path="/projects" element={<Projects />} />
             <Route path="/blog" element={<Blog />} /> */}
           </Routes>

@@ -3,6 +3,8 @@
   display: flex;
   min-height:calc(100vh - 130px); 
   flex-direction: column;
+  margin-top:59px;
+  margin-bottom:44px;
 }
 
 .white-column {

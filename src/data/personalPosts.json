@@ -1,0 +1,44 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Trip to Andaman and Nicobar Islands",
+      "description": "My unforgettable journey to the Andaman Islands filled with adventure and tranquility.",
+      "date": "2024-10-10",
+      "tags": ["Travel", "Adventure"],
+      "image": "andaman_trip.jpg"
+    },
+    {
+      "id": 2,
+      "title": "My Baking Journey",
+      "description": "Discovering the art of baking and my favorite recipes to try at home.",
+      "date": "2024-09-05",
+      "tags": ["Hobbies", "Baking"],
+      "image": "baking_journey.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Piano: A Journey of Melodies",
+      "description": "How learning the piano changed my perspective on music and creativity.",
+      "date": "2024-08-20",
+      "tags": ["Music", "Hobbies"],
+      "image": "piano_journey.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Staying Fit with Badminton",
+      "description": "Why badminton is my go-to sport for fitness and fun.",
+      "date": "2024-07-15",
+      "tags": ["Fitness", "Sports"],
+      "image": "badminton_fitness.jpg"
+    },
+    {
+      "id": 5,
+      "title": "A Day in the Life",
+      "description": "Sharing a typical day in my life, balancing work, hobbies, and wellness.",
+      "date": "2024-06-10",
+      "tags": ["Lifestyle", "Wellness"],
+      "image": "day_in_life.jpg"
+    }
+  ]
+}
