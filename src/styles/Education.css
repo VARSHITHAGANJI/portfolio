@@ -1,37 +1,37 @@
-/* src/components/Education.css */
-.education-container {
-  /* padding: 2rem; */
-  background-color: #f9f9f9;
-  min-height: calc(100vh - 60px); /* Adjust this value based on your header and footer height */
-  overflow-y: auto;
-  margin-top: 10px;
+  /* src/components/Education.css */
+  .education-container {
+    /* padding: 2rem; */
+    background-color: #f9f9f9;
+    min-height: calc(100vh - 60px); /* Adjust this value based on your header and footer height */
+    overflow-y: auto;
+    margin-top: 10px;
 
-}
+  }
 
-.education-container .h2{
-color: #6e3a3a;
+  .education-container .h2{
+  color: #6e3a3a;
+      font-size: 2rem;
+  }
+
+  .education-title {
+    text-align: center;
     font-size: 2rem;
-}
+    margin-bottom: 2rem;
+    color:#6e3a3a;
+  }
 
-.education-title {
-  text-align: center;
-  font-size: 2rem;
-  margin-bottom: 2rem;
-  color:#6e3a3a;
-}
+  .vertical-timeline-element-title {
+    font-size: 1.5rem;
+    color: #333;
+  }
 
-.vertical-timeline-element-title {
-  font-size: 1.5rem;
-  color: #333;
-}
+  .vertical-timeline-element-subtitle {
+    font-size: 1.2rem;
+    color: #666;
+  }
 
-.vertical-timeline-element-subtitle {
-  font-size: 1.2rem;
-  color: #666;
-}
-
-.vertical-timeline-element p {
-  font-size: 1rem;
-  color: #666;
-  line-height: 1.6;
-}
+  .vertical-timeline-element p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+  }
