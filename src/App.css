@@ -88,7 +88,8 @@ body.light-theme {
 }
 
 body.dark-theme {
-  background-color: #936260;
+  /* background-color: #936260; */
+  background-color: #1E1E1E;
   /* color: #ffffff; */
 }
 
@@ -97,7 +98,7 @@ body.dark-theme {
 }
 
 .navbar-fixed .navbar-dark {
-  background-color: #becad4 !important;
+  background-color: #1E1E1E !important;
 }
 
 .nav-link-light {
@@ -134,3 +135,5 @@ body.dark-theme {
         background-color: #f1ece2 !important;
     }
 } */
+
+

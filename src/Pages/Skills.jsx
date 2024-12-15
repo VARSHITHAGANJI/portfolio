@@ -160,7 +160,12 @@ const coursesData = [
     courses: [
       { name: 'Data Structures and Algorithms', description: 'Explored advanced problem-solving and optimization.' },
       { name: 'Operating Systems', description: 'Learned process management, memory, and file systems.' },
-      { name: 'Compiler Design', description: 'Built a mini compiler using flex and bison tools.' },
+      // { name: 'Compiler Design', description: 'Built a mini compiler using flex and bison tools.' },
+      {name: 'Computer Architecture'},
+      {name: 'Computer Networks'},
+      {name: 'Cryptography'},
+
+      
     ],
   },
   {
@@ -222,7 +227,7 @@ const Skills = () => {
               {category.courses.map((course, idx) => (
                 <div key={idx} className="course-item">
                   <h4>{course.name}</h4>
-                  <p>{course.description}</p>
+                  {/* <p>{course.description}</p> */}
                 </div>
               ))}
             </div>

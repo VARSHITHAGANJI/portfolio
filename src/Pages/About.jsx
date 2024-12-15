@@ -3,9 +3,9 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import '../styles/About.css';
 import profile from "../assets/varshu.jpg"
-const About = () => {
+const About = ({ theme, toggleTheme }) => {
   return (
-    <Container fluid className="about-container">
+    <Container fluid className={theme === 'light' ? "about-container about-light" :"about-container about-dark"}>
       <Row noGutters>
         <Col md={6} className="white-column">
           <div className="content-wrapper">

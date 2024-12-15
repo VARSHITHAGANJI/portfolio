@@ -31,7 +31,7 @@ const MyNavbar = ({ theme, toggleTheme }) => {
     <Navbar bg={theme === 'light' ? 'light' : 'dark'} variant={theme} expand="lg" expanded={expanded}>
       <Container>
         <LinkContainer className = "navbar-title "to="/">
-          <Navbar.Brand onClick={handleNavClick}>MyPortfolio</Navbar.Brand>
+          <Navbar.Brand onClick={handleNavClick}>Varshitha Ganji</Navbar.Brand>
         </LinkContainer>
         <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setExpanded(!expanded)} />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -63,7 +63,7 @@ const MyNavbar = ({ theme, toggleTheme }) => {
           </Nav>
           
         </Navbar.Collapse>
-        <NavItem >
+        {/* <NavItem >
         <div className="theme-toggle ml-auto">
             <Switch
               onChange={toggleTheme}
@@ -75,7 +75,7 @@ const MyNavbar = ({ theme, toggleTheme }) => {
               className="react-switch" height={25}   
             />
           </div>
-          </NavItem >
+          </NavItem > */}
       </Container>
     </Navbar>
   );

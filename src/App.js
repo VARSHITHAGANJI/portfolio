@@ -13,6 +13,7 @@ import Projects from './Pages/Projects';
 import AllBlogs from './Pages/AllBlogs';
 import PersonalBlogs from './Pages/PersonalBlogPage';
 import TechnicalBlogs from './Pages/TechnicalBlogPage';
+import ComingSoon  from './Pages/Comingsoon';
 // import BlogDetail from './Pages/BlogDetail';
 
 import Header from "./Components/Header"
@@ -21,7 +22,6 @@ import React, { useState, useEffect } from 'react';
 
 
 import './App.css';
-
 
 
  
@@ -50,15 +50,15 @@ const App = () => {
        
         <Container className="content-container">
           <Routes>
-            <Route path="/" element={<About />} />
-            <Route path="/about" element={<About />} />
+            <Route path="/" element={<About theme={theme} toggleTheme={toggleTheme}/>} />
+            <Route path="/about" element={<About theme={theme} toggleTheme={toggleTheme}/>} />
 
             <Route path="/skills" element={<Skills />} />
             <Route path="/experience" element={<Education />} />
             <Route path="/projects" element={<Projects />} />
-            <Route path="/blog/allposts" element={<AllBlogs />} />
-<Route path="/blog/technical" element={<TechnicalBlogs />} />
-<Route path="/blog/personal" element={<PersonalBlogs />} />
+            <Route path="/blog/allposts" element={<ComingSoon />} />
+<Route path="/blog/technical" element={<ComingSoon />} />
+<Route path="/blog/personal" element={<ComingSoon />} />
         {/* <Route path="/project/:id" element={<ProjectDetail/>} /> */}
             {/* <Route path="/projects" element={<Projects />} />
             <Route path="/blog" element={<Blog />} /> */}
